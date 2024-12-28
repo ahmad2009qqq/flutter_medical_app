@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'home_page.dart';
 
 class StratedPage extends StatefulWidget {
-  const StratedPage({Key? key}) : super(key: key);
+  const StratedPage({super.key});
 
   @override
   State<StratedPage> createState() => _StratedPageState();

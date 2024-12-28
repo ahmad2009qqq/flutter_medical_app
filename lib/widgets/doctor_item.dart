@@ -5,11 +5,10 @@ class DoctorItem extends StatelessWidget {
   final String name;
   final String speciaList;
   const DoctorItem(
-      {Key? key,
+      {super.key,
       required this.image,
       required this.name,
-      required this.speciaList})
-      : super(key: key);
+      required this.speciaList});
 
   @override
   Widget build(BuildContext context) {

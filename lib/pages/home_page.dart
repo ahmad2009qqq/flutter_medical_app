@@ -3,7 +3,7 @@ import 'package:flutter_medical_app/widgets/specialist_item.dart';
 import 'package:flutter_medical_app/widgets/doctor_item.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -57,12 +57,12 @@ class _HomePageState extends State<HomePage> {
                 const SizedBox(
                   height: 12,
                 ),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
                           "Hello,",
                           style: TextStyle(
@@ -83,7 +83,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ],
                     ),
-                    const CircleAvatar(
+                    CircleAvatar(
                       radius: 30,
                       backgroundImage: AssetImage("assets/drRafkiHaris.jpg"),
                     ),
@@ -170,8 +170,8 @@ class _HomePageState extends State<HomePage> {
                     color: const Color.fromARGB(95, 179, 173, 173),
                     borderRadius: BorderRadius.circular(16),
                   ),
-                  child: Row(
-                    children: const [
+                  child: const Row(
+                    children: [
                       Icon(
                         Icons.search,
                         size: 32,
@@ -225,9 +225,9 @@ class _HomePageState extends State<HomePage> {
                 const SizedBox(
                   height: 20,
                 ),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Text(
                       "Doctor list",
                       style: TextStyle(

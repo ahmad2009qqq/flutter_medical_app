@@ -5,10 +5,10 @@ class SpecialistItem extends StatelessWidget {
   final String imageName;
 
   const SpecialistItem({
-    Key? key,
+    super.key,
     required this.imagePath,
     required this.imageName,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
