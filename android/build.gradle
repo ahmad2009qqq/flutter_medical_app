@@ -34,7 +34,8 @@ tasks.register("clean", Delete) {
 // allprojects {
 //     repositories {
 //         google()
-//         jcenter()
+//         mavenCentral()
+//         // jcenter()
 //     }
 // }
 
